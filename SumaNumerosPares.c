@@ -15,11 +15,11 @@ int main ()
     {
         if (u[i]%2 == 0)
         {
-            sumapares = sumapares + u[i];
+            sumapares = sumapares * u[i];
         }
         else if (u[i]%2 != 0)
         {
-            sumaimpares = sumaimpares + u[i];
+            sumaimpares = sumaimpares * u[i];
         }
     }
     printf("La suma de los numeros pares es: %d \n", sumapares);
